@@ -1,18 +1,18 @@
 import Link from 'next/link'
 
-const About = () => {
+const Contact = () => {
     return (
         <div style={{ fontSize: '20px', color: 'tomato' }}>
-            <h1>About</h1>
+            <h1>Contact</h1>
             <Link href='/'>
                 <button>Home</button>
             </Link>
-            <Link href='/contact'>
-                <button>Contact</button>
+            <Link href='/about'>
+                <button>About</button>
             </Link>
-            <p>I was a magician once...</p>
+            <p>Let's talk...</p>
         </div>
     )
 };
 
-export default About;
+export default Contact;
